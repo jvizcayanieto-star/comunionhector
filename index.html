@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera Comunión de Héctor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .font-cursive { font-family: 'Great Vibes', cursive; }
+        .font-sans { font-family: 'Montserrat', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), 
+                        url('https://images.unsplash.com/photo-1544427920-c49ccfb85579?q=80&w=2000'); /* CAMBIAR POR FOTO DE HÉCTOR */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+    <section class="hero-bg h-screen flex flex-col justify-center items-center text-center p-6">
+        <h1 class="font-cursive text-6xl md:text-8xl text-blue-900 mb-4">Mi Primera Comunión</h1>
+        <h2 class="text-2xl md:text-4xl uppercase tracking-widest font-light">Héctor</h2>
+        <div class="mt-8 animate-bounce">
+            <p class="text-sm uppercase tracking-widest">Desliza para ver los detalles</p>
+            <span>↓</span>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 text-center bg-white">
+        <div class="max-w-2xl mx-auto italic text-xl text-gray-600">
+            "Nada sin ti, nada sin nosotros."
+            <p class="mt-4 text-base not-italic font-semibold text-blue-800">— Alianza de Amor —</p>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-blue-900 text-center">
+            <h3 class="text-2xl font-bold mb-4">La Ceremonia</h3>
+            <p class="mb-2 uppercase text-sm font-semibold text-gray-500">¿Dónde?</p>
+            <p class="text-lg">Santuario de Schoenstatt</p> <p class="text-gray-600 mb-4">Corregidora, Qro.</p>
+            <p class="mb-2 uppercase text-sm font-semibold text-gray-500">¿A qué hora?</p>
+            <p class="text-lg mb-6">12:00 PM</p> <a href="https://maps.google.com" target="_blank" class="inline-block bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition">Ver Ubicación</a>
+        </div>
+
+        <div class="bg-white p-8 rounded-2xl shadow-sm border-t-4 border-blue-900 text-center">
+            <h3 class="text-2xl font-bold mb-4">El Festejo</h3>
+            <p class="mb-2 uppercase text-sm font-semibold text-gray-500">¿Dónde?</p>
+            <p class="text-lg">Jardín de Eventos "El Recreo"</p> <p class="text-gray-600 mb-4">A partir de las 2:30 PM</p>
+            <p class="mb-2 uppercase text-sm font-semibold text-gray-500">Vestimenta</p>
+            <p class="text-lg mb-6 text-blue-900">Guayabera / Formal de día</p>
+            <a href="https://maps.google.com" target="_blank" class="inline-block bg-blue-900 text-white px-6 py-2 rounded-full hover:bg-blue-800 transition">Ver Ubicación</a>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 bg-blue-900 text-white text-center">
+        <h2 class="text-3xl font-cursive mb-6 text-4xl">¿Nos acompañas?</h2>
+        <p class="mb-8 max-w-md mx-auto">Por favor, confímanos tu asistencia antes del [FECHA LÍMITE].</p>
+        <a href="https://wa.me/521234567890?text=Hola!%20Confirmamos%20asistencia%20para%20la%20comunion%20de%20Hector" 
+           class="bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-10 rounded-full inline-flex items-center transition transform hover:scale-105">
+            Confirmar por WhatsApp
+        </a>
+    </section>
+
+    <section class="py-16 px-6 text-center">
+        <h3 class="text-xl font-bold mb-4 italic text-gray-500 text-sm tracking-widest uppercase">Mesa de Regalos</h3>
+        <p class="mb-6">Tu presencia es mi mejor regalo, pero si gustas tener un detalle:</p>
+        <div class="flex justify-center gap-4">
+            <a href="#" class="border border-gray-300 px-6 py-2 rounded hover:bg-gray-100 transition">Amazon Wishlist</a> <a href="#" class="border border-gray-300 px-6 py-2 rounded hover:bg-gray-100 transition">Liverpool</a>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-gray-400 text-xs">
+        Hecho con ♡ para Héctor • 2026
+    </footer>
+
+</body>
+</html>
